@@ -3,12 +3,12 @@
 The PC Engine series of systems has a different game-save storage system than most people
 these days have gotten used to.  It used a 2KB static RAM.  This wasn't in the cartridges
 themselves; initially, it was sold as pat of an add-on to the system: The Tennokoe 2,
-"voice from heaven".  In later systems like the Duo series, it would be integrated into
+"Voice from Heaven".  In later systems like the Duo series, it would be integrated into
 the system unit, yet still be limited to 2KB static RAM.
 
-You're probably thinking, "static RAM is volatile - it loses its contents when the power
+You're probably thinking, "Static RAM is volatile - it loses its contents when the power
 is shut off", and you'd be right.  There really weren't any non-volatiole options at the
-time.  Instead, they used batteries or large capacitors to continuous apply power to the
+time.  Instead, they used batteries or large capacitors to apply continuous power to the
 memory, so that it would not lose its contents.  In the case of the Tennokoe 2, 2 "AA"
 cells were used; in the case of the Duo, a large capacitor was used.
 
@@ -16,8 +16,8 @@ I have lost a few game saves on my Duo because I failed to turn the system on fo
 of time long enough to lose its contents... probably about 1 to 2 weeks.
 
 Because of this, I was inspired to replace the SRAM with modern FeRAM to make it
-non-volatile.  But since the Duo is a tighter space with a surface-mount chip, I felt it
-was easier to test the idea on the Tennokoe 2, which uses a DIP SRAM chip.  Later, I
+non-volatile.  But the Duo is a tighter-packed PC board with surface-mount chips, so I felt it
+was easier to first test the idea on the Tennokoe 2, which uses a DIP SRAM chip.  Later, I
 plan to come back with a design for a surface-mount version suitable for my Duo.
 
 I have chosen to use the Cypress FM16W08 chip, which can handle 5V, has timing which is
