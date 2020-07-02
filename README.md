@@ -6,7 +6,7 @@ themselves; initially, it was sold as pat of an add-on to the system: The Tennok
 "voice from heaven".  In later systems like the Duo series, it would be integrated into
 the system unit, yet still be limited to 2KB static RAM.
 
-You're probably thinking, "status RAM is volatile - it loses its contents when the power
+You're probably thinking, "static RAM is volatile - it loses its contents when the power
 is shut off", and you'd be right.  There really weren't any non-volatiole options at the
 time.  Instead, they used batteries or large capacitors to continuous apply power to the
 memory, so that it would not lose its contents.  In the case of the Tennokoe 2, 2 "AA"
