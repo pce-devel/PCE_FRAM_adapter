@@ -31,5 +31,8 @@ I designed the boards using the free version of EAGLE (2-layer, less than 100mm
 on both X- and Y-axes).  The gerbers are included in this repository, in case you
 want to get your own set made.
 
-When the boards arrive from the PCB house, I will create some installation instructions.
+
+Assembly/installation instructions for the FRAM-DIP board:
+https://github.com/dshadoff/PCE_FRAM_adapter/FRAM-DIP-assembly.md
+
 
