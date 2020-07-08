@@ -32,8 +32,7 @@ on both X- and Y-axes).  The gerbers are included in this repository, in case yo
 want to get your own set made.
 
 
-Assembly/installation instructions for the FRAM-DIP board:
+## Assembly/installation instructions for the FRAM-DIP board:
 
-https://github.com/dshadoff/PCE_FRAM_adapter/FRAM-DIP-assembly.md
-
+https://github.com/dshadoff/PCE_FRAM_adapter/blob/master/FRAM-DIP-assembly.md
 
