@@ -1,4 +1,4 @@
-# FRAM-DIP converter board
+# FRAM converter boards
 
 The PC Engine series of systems has a different game-save storage system than most people
 these days have gotten used to.  It used a 2KB static RAM.  This wasn't in the cartridges
@@ -17,12 +17,14 @@ of time long enough to lose its contents... probably about 1 to 2 weeks.
 
 Because of this, I was inspired to replace the SRAM with modern FeRAM to make it
 non-volatile.  But the Duo is a tighter-packed PC board with surface-mount chips, so I felt it
-was easier to first test the idea on the Tennokoe 2, which uses a DIP SRAM chip.  Later, I
-plan to come back with a design for a surface-mount version suitable for my Duo.
+was easier to first test the idea on the Tennokoe 2, which uses a DIP SRAM chip.
 
-I have chosen to use the Cypress FM16W08 chip, which can handle 5V, has timing which is
+I have followed up with a design for a flex PCB to use with surface-mount chips in order to
+be suitable for my Duo, and it also works well.
+
+I chose to use the Cypress FM16W08 chip, which can handle 5V, has timing which is
 equal to or better than the SRAM it is replacing, and has a similar pinout.  But I still
-needed to make an adapter board (which is what this repository is all about).
+needed to make adapter boards (which is what this repository is all about).
 
 As the FeRAM is rated for 100 trillion read/write cycles, there is no
 concern about lifetime under the usage in this application.
@@ -32,7 +34,11 @@ on both X- and Y-axes).  The gerbers are included in this repository, in case yo
 want to get your own set made.
 
 
-## Assembly/installation instructions for the FRAM-DIP board:
+## Assembly/installation instructions for the FRAM-DIP board for the Tennokoe 2:
 
 https://github.com/dshadoff/PCE_FRAM_adapter/blob/master/FRAM-DIP-assembly.md
 
+
+## Assembly/installation instructions for the FRAM-SOIC board for the Duo and other machines:
+
+https://github.com/dshadoff/PCE_FRAM_adapter/blob/master/FRAM-SOIC-assembly.md
