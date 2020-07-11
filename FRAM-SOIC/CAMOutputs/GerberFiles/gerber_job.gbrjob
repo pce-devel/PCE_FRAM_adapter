@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-06-29T03:21:29Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "FRAM-SOP"
+        },
+        "Owner": "David Shadoff <david.shadoff@gmail.com>",
+        "Size": {
+            "X": 23.443194,
+            "Y": 20.574
+        }
+    }
+}
