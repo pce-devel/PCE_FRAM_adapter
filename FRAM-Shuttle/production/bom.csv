@@ -1,0 +1,5 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J1,PinHeader_2x03_P2.00mm_Vertical,1,Conn_02x03_Odd_Even,
+"R1, R2",0805,2,100K,
+U1,SOIC-28W_7.5x17.9mm_P1.27mm,1,FM16W08-SG,
+U2,DIP-24_18.0mmx34.29mm_W15.24mm,1,6116,

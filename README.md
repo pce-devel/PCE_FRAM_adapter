@@ -34,6 +34,7 @@ on both X- and Y-axes).  The gerbers are included in this repository, in case yo
 want to get your own set made.
 
 
+
 ## Assembly/installation instructions for the FRAM-DIP board for the Tennokoe 2:
 
 https://github.com/dshadoff/PCE_FRAM_adapter/blob/master/FRAM-DIP-assembly.md
@@ -42,3 +43,10 @@ https://github.com/dshadoff/PCE_FRAM_adapter/blob/master/FRAM-DIP-assembly.md
 ## Assembly/installation instructions for the FRAM-SOIC board for the Duo and other machines:
 
 https://github.com/dshadoff/PCE_FRAM_adapter/blob/master/FRAM-SOIC-assembly.md
+
+
+## UPDATE: A new board for use with the PCE Shuttle Backup Memory
+
+The Shuttle's board was designed using KiCAD. While this board is separate and distinct from
+the board for the Tennokoe 2, the installation instructions are similar (sorry, but I don't
+have pictures)
